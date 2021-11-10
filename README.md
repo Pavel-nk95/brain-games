@@ -9,3 +9,7 @@
 ### GitHub Actions:
 
 [![Github-actions-test](https://github.com/Pavel-nk95/frontend-project-lvl1/actions/workflows/github-actions-test.yml/badge.svg)](https://github.com/Pavel-nk95/frontend-project-lvl1/actions/workflows/github-actions-test.yml)
+
+### Brain-even record:
+
+https://asciinema.org/a/nPK9nCSy6wfoRNvPMTCJB8r14
