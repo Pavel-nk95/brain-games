@@ -17,3 +17,6 @@ https://asciinema.org/a/nPK9nCSy6wfoRNvPMTCJB8r14
 ### Brain-calc record:
 
 https://asciinema.org/a/W1V7KUwA9IOHZrvkQ0b937Lyo
+### Brain-gcd record:
+
+https://asciinema.org/a/EPr6BC9a5WDTAbOZEP8EEBgZR

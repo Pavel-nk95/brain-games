@@ -3,8 +3,8 @@ import gameEngine, { getRandomInt, getRandomOperator } from '../src/index.js';
 const rules = ['What is the result of the expression?', 3];
 
 const generator = () => {
-  const randomIntOne = getRandomInt(1, 99);
-  const randomIntTwo = getRandomInt(1, 99);
+  const randomIntOne = getRandomInt(1, 100);
+  const randomIntTwo = getRandomInt(1, 100);
   const randomOperator = getRandomOperator();
   const questionStr = `${randomIntOne} ${randomOperator} ${randomIntTwo}`;
   let correctAnswer = null;
