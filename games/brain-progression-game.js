@@ -8,8 +8,9 @@ const getRandomLength = (value = 10) => {
 };
 
 const generator = () => {
-  const stepProgression = getRandomInt(1, 10);
-  const startingNum = getRandomInt(1, 100);
+  const maxStep = 10;
+  const stepProgression = getRandomInt(1, maxStep);
+  const startingNum = getRandomInt();
   const progressionLength = getRandomLength();
   const progression = [startingNum];
   for (let i = 0; i < progressionLength; i += 1) {

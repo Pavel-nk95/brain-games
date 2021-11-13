@@ -1,13 +1,9 @@
 import readlineSync from 'readline-sync';
 
-const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const getRandomInt = (minNum = 1, maxNum = 100) => Math.floor(Math.random() * (maxNum - minNum + 1))
+ + minNum;
 
-const getRandomOperator = () => {
-  const operators = ['+', '-', '*'];
-  return operators[getRandomInt(0, operators.length - 1)];
-};
-
-export { getRandomInt, getRandomOperator };
+export { getRandomInt };
 
 export default (rules, generator) => {
   console.log('Welcome to the Brain Games!');

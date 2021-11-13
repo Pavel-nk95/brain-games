@@ -10,8 +10,8 @@ const getGcd = (num1, num2) => {
 };
 
 const generator = () => {
-  const randomIntOne = getRandomInt(1, 100);
-  const randomIntTwo = getRandomInt(1, 100);
+  const randomIntOne = getRandomInt();
+  const randomIntTwo = getRandomInt();
   const questionStr = `${randomIntOne} ${randomIntTwo}`;
   const correctAnswer = String(getGcd(randomIntOne, randomIntTwo));
   return [questionStr, correctAnswer];
