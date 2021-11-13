@@ -19,17 +19,17 @@ You can play any game of the following games:
 
 [![Github-actions-test](https://github.com/Pavel-nk95/frontend-project-lvl1/actions/workflows/github-actions-test.yml/badge.svg)](https://github.com/Pavel-nk95/frontend-project-lvl1/actions/workflows/github-actions-test.yml)
 
-# Brain-even record:
+#### Brain-even record:
 https://asciinema.org/a/nPK9nCSy6wfoRNvPMTCJB8r14
 
-# Brain-calc record:
+#### Brain-calc record:
 https://asciinema.org/a/W1V7KUwA9IOHZrvkQ0b937Lyo
 
-# Brain-gcd record:
+#### Brain-gcd record:
 https://asciinema.org/a/EPr6BC9a5WDTAbOZEP8EEBgZR
 
-# Brain-progression record:
+#### Brain-progression record:
 https://asciinema.org/a/iw8kaOYmTjEhIBkdv4V7U45qx
 
-# Brain-prime record:
+#### Brain-prime record:
 https://asciinema.org/a/k6G2jm1RdKjLMR9axDdJCInd7
