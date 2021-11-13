@@ -24,3 +24,7 @@ https://asciinema.org/a/EPr6BC9a5WDTAbOZEP8EEBgZR
 ### Brain-progression record:
 
 https://asciinema.org/a/iw8kaOYmTjEhIBkdv4V7U45qx
+
+### Brain-prime record:
+
+https://asciinema.org/a/k6G2jm1RdKjLMR9axDdJCInd7
