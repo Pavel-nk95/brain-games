@@ -1,5 +1,4 @@
 #!/usr/bin/env node
+import startGame from '../src/games/brain-prime-game.js';
 
-import { gameEngine as startGame, rules, generator } from '../games/brain-prime-game.js';
-
-startGame(rules, generator);
+startGame();

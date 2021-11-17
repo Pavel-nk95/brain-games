@@ -1,11 +1,11 @@
-import gameEngine, { getRandomInt } from '../src/index.js';
+import { gameEngine, getRandomInt } from '../index.js';
+
+const title = 'What is the result of the expression?';
 
 const getRandomOperator = () => {
   const operators = ['+', '-', '*'];
   return operators[getRandomInt(0, operators.length - 1)];
 };
-
-const rules = ['What is the result of the expression?', 3];
 
 const generator = () => {
   const randomIntOne = getRandomInt();
@@ -28,4 +28,8 @@ const generator = () => {
   return [questionStr, String(correctAnswer)];
 };
 
-export { gameEngine, rules, generator };
+const startGame = () => {
+  gameEngine(title, generator);
+};
+
+export default startGame;
