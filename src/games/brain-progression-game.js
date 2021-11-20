@@ -1,18 +1,23 @@
-import { gameEngine, getRandomInt } from '../index.js';
+import { launchGameEngine, getRandomInt, rounds } from '../index.js';
 
 const title = 'What number is missing in the progression?';
 
-const generator = () => {
+const genSequenceNumbers = (startNum, step, length) => {
+  const result = [];
+  for (let i = 0; i < length; i += 1) {
+    result.push(startNum + i * step);
+  }
+  return result;
+};
+
+const createGameParams = () => {
   const hiddenStr = '..';
   const maxStep = 10;
   const maxLength = 10;
   const step = getRandomInt(1, maxStep);
-  const startingNum = getRandomInt();
+  const startNum = getRandomInt();
   const progressionLength = maxLength || getRandomInt(5, 10);
-  const progression = [];
-  for (let i = 0; i < progressionLength; i += 1) {
-    progression.push(startingNum + i * step);
-  }
+  const progression = genSequenceNumbers(startNum, step, progressionLength);
   const randomHiddenIndex = getRandomInt(0, progressionLength - 1);
   const correctAnswer = String(progression[randomHiddenIndex]);
   progression[randomHiddenIndex] = hiddenStr;
@@ -21,7 +26,7 @@ const generator = () => {
 };
 
 const startGame = () => {
-  gameEngine(title, generator);
+  launchGameEngine(title, createGameParams, rounds);
 };
 
 export default startGame;

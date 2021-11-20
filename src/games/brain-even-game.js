@@ -1,15 +1,15 @@
-import { gameEngine, getRandomInt } from '../index.js';
+import { launchGameEngine, getRandomInt, rounds } from '../index.js';
 
 const title = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-const generator = () => {
+const createGameParams = () => {
   const randomInt = getRandomInt();
   const correctAnswer = randomInt % 2 === 0 ? 'yes' : 'no';
   return [randomInt, correctAnswer];
 };
 
 const startGame = () => {
-  gameEngine(title, generator);
+  launchGameEngine(title, createGameParams, rounds);
 };
 
 export default startGame;
