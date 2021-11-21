@@ -29,7 +29,7 @@ You can play any game of the following games:
 [![asciicast](https://asciinema.org/a/450341.svg)](https://asciinema.org/a/450341)
 
 #### Brain-progression record:
-[![asciicast](https://asciinema.org/a/450346.svg)](https://asciinema.org/a/450346)
+[![asciicast](https://asciinema.org/a/450468.svg)](https://asciinema.org/a/450468)
 
 #### Brain-prime record:
-[![asciicast](https://asciinema.org/a/450347.svg)](https://asciinema.org/a/450347)
+[![asciicast](https://asciinema.org/a/450469.svg)](https://asciinema.org/a/450469)
