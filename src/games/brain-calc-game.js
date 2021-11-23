@@ -1,4 +1,4 @@
-import { launchGameEngine, getRandomInt, rounds } from '../index.js';
+import { launchGameEngine, getRandomInt } from '../index.js';
 
 const title = 'What is the result of the expression?';
 
@@ -29,7 +29,7 @@ const createGameParams = () => {
 };
 
 const startGame = () => {
-  launchGameEngine(title, createGameParams, rounds);
+  launchGameEngine(title, createGameParams);
 };
 
 export default startGame;

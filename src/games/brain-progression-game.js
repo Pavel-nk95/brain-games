@@ -1,10 +1,10 @@
-import { launchGameEngine, getRandomInt, rounds } from '../index.js';
+import { launchGameEngine, getRandomInt } from '../index.js';
 
 const title = 'What number is missing in the progression?';
 
-const genSequenceNumbers = (startNum, step, length) => {
+const genSequenceNumbers = (startNum, step, progressionLength) => {
   const result = [];
-  for (let i = 0; i < length; i += 1) {
+  for (let i = 0; i < progressionLength; i += 1) {
     result.push(startNum + i * step);
   }
   return result;
@@ -26,7 +26,7 @@ const createGameParams = () => {
 };
 
 const startGame = () => {
-  launchGameEngine(title, createGameParams, rounds);
+  launchGameEngine(title, createGameParams);
 };
 
 export default startGame;
