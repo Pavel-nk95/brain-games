@@ -13,9 +13,9 @@ const isPrimeNumber = (num) => {
 };
 
 const createGameParams = () => {
-  const randomNum = getRandomInt();
-  const correctAnswer = isPrimeNumber(randomNum) ? 'yes' : 'no';
-  return [randomNum, correctAnswer];
+  const randomInt = getRandomInt();
+  const correctAnswer = isPrimeNumber(randomInt) ? 'yes' : 'no';
+  return [randomInt, correctAnswer];
 };
 
 const startGame = () => {
