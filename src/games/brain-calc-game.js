@@ -11,7 +11,7 @@ const createGameParams = () => {
   const randomIntOne = getRandomInt();
   const randomIntTwo = getRandomInt();
   const randomOperator = getRandomOperator();
-  const questionStr = `${randomIntOne} ${randomOperator} ${randomIntTwo}`;
+  const question = `${randomIntOne} ${randomOperator} ${randomIntTwo}`;
   let correctAnswer = null;
   switch (randomOperator) {
     case '+':
@@ -25,7 +25,7 @@ const createGameParams = () => {
       break;
     default:
   }
-  return [questionStr, String(correctAnswer)];
+  return [question, String(correctAnswer)];
 };
 
 const startGame = () => {
